@@ -1,6 +1,10 @@
-* {box-sizing: border-box;}
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
-
+* {
+  box-sizing: border-box;
+}
 
 html,
 body {
@@ -11,11 +15,397 @@ body {
   overflow-x: hidden;
 }
 
-header { 
-    background-image: url(https://i.redd.it/ba5l2wtuzp121.jpg);
-    background-size: cover;
-    overflow: hidden;
-    text-align: center;
-    height: 900px;
+header {
+  background-image: url(https://i.redd.it/ba5l2wtuzp121.jpg);
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  height: 900px;
   width: 100%;
+  animation-duration: 2s;
+  animation-name: fade;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+header h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 10pc;
+  color: white;
+  position: relative;
+  top: 3rem;
+  left: 1rem;
+  user-select: none;
+  letter-spacing: 3rem;
+  animation-duration: 2s;
+  animation-name: fadeIn;
+}
+
+header h2 {
+  font-family: "Staatliches", cursive;
+  font-size: 2pc;
+  color: white;
+  position: relative;
+  top: 3rem;
+  left: 1rem;
+  user-select: none;
+  letter-spacing: 0.5rem;
+  animation-duration: 2s;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    top: 0rem;
+  }
+
+  to {
+    top: 3rem;
+  }
+}
+
+header button {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 4pc;
+  color: white;
+  background-color: transparent;
+  border: none;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  top: 6rem;
+  left: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+  animation-duration: 2s;
+  animation-name: fadeInB;
+}
+
+@keyframes fadeInB {
+  from {
+    top: 0rem;
+  }
+
+  to {
+    top: 6rem;
+  }
+}
+
+header button:hover {
+  background-color: rgba(190, 40, 128, 0.753);
+}
+
+nav {
+  display: flex;
+  justify-items: self-start;
+}
+
+nav a {
+  margin-top: 1rem;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 2pc;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-left: 3rem;
+}
+
+nav a:hover {
+  background-color: rgba(190, 40, 128, 0.753);
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.L1 {
+  /* border: solid tomato; */
+  margin-top: 20rem;
+  text-align: center;
+  height: 800px;
+  width: 100%;
+  padding: 15rem;
+}
+
+.L1cover {
+  /* border: solid red; */
+  float: right;
+  height: 650px;
+  width: 650px;
+  background-image: url(http://cdn.shopify.com/s/files/1/0252/6822/4088/t/54/assets/logo_facebook.png?v=14636856715189202634);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.L1-anime {
+  animation: L1anime 3.5s 1;
+}
+
+@keyframes L1anime {
+  from {
+    margin-top: 17rem;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 20rem;
+    opacity: 1;
+  }
+}
+
+.L1 h3 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 4pc;
+  float: left;
+  display: inline-block;
+  /* border: solid tomato; */
+  float: left;
+  width: 35rem;
+  user-select: none;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.L2 {
+  /* border: solid tomato; */
+  margin-top: 20rem;
+  text-align: center;
+  height: 800px;
+  width: 100%;
+  padding: 5rem;
+}
+
+.L2cover {
+  /* border: solid red; */
+  float: left;
+  height: 550px;
+  width: 850px;
+  background-image: url(https://i.pinimg.com/originals/91/f7/33/91f7335faeccce807e8dbb3b1de19a77.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.L2-anime {
+  animation: L2anime 3.5s 1;
+}
+
+@keyframes L2anime {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.L2 h3 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 4pc;
+  float: right;
+  display: inline-block;
+  /* border: solid tomato; */
+  float: left;
+  width: 30rem;
+  user-select: none;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.L3 {
+  margin-top: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(https://kurzgesagt.org/wp-content/uploads/2018/07/inanutshell-kurzgesagt-the-great-filter-06.png);
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  height: 900px;
+  width: 90%;
+  /* border: tomato solid; */
+  padding: 2rem;
+  box-shadow: 0px 5px 15px #00000078;
+}
+
+.L3-anime {
+  animation: L3anime 2.5s 1;
+}
+
+@keyframes L3anime {
+  from {
+    margin-left: 70rem;
+    opacity: 0.1;
+  }
+
+  to {
+    margin-left: 5.6rem;
+
+    opacity: 1;
+  }
+}
+
+.L3 #one {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2pc;
+  display: inline-block;
+  /* border: solid tomato; */
+  color: white;
+  width: 40rem;
+  float: left;
+  word-spacing: 0.5rem;
+  user-select: none;
+}
+
+.L3 #two {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2pc;
+  display: inline-block;
+  /* border: solid tomato; */
+  color: white;
+  width: 40rem;
+  float: left;
+  word-spacing: 0.5rem;
+  margin-top: 40rem;
+  margin-left: 10rem;
+  user-select: none;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.L4 {
+  margin-top: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(https://pbs.twimg.com/media/EI3MXKLXUAERyFG.jpg:large);
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  height: 2000px;
+  width: 95%;
+  /* border: tomato solid; */
+  padding: 2rem;
+  box-shadow: 0px 5px 15px #00000078;
+}
+
+.L4-anime {
+  animation: L4anime 2.5s 1;
+}
+
+@keyframes L4anime {
+  from {
+    margin-top: 32rem;
+    opacity: 0.1;
+  }
+
+  to {
+    margin-top: 30rem;
+    opacity: 1;
+  }
+}
+
+.L4 #three {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2pc;
+  display: inline-block;
+  /* border: solid tomato; */
+  color: white;
+  width: 40rem;
+  float: left;
+  word-spacing: 0.5rem;
+  user-select: none;
+}
+
+.L4 #four {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2pc;
+  display: inline-block;
+  /* border: solid tomato; */
+  color: white;
+  width: 40rem;
+  float: left;
+  word-spacing: 0.5rem;
+  margin-top: 40rem;
+  margin-left: 10rem;
+  user-select: none;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+footer {
+  margin-top: 30rem;
+  background-image: url(https://wallpaperaccess.com/full/1886939.png);
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  height: 1000px;
+  width: 100%;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: white;
+  font-size: 2pc;
+  padding: 20rem;
+}
+
+.L5 {
+  /* border: tomato solid; */
+  margin-bottom: 10rem;
+  font-size: 5pc;
+}
+
+@keyframes L5anime {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.L5-anime {
+  animation: L5anime 8s 1;
+}
+
+footer a {
+  font-size: 1.5pc;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 1.5rem;
+  transition: 0.3s;
+  user-select: none;
+}
+
+footer p {
+  padding: 1.5rem;
+  user-select: none;
+}
+
+footer a:hover {
+  color: #882695;
 }
