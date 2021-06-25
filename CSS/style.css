@@ -152,12 +152,12 @@ nav a:hover {
 }
 
 .L1-anime {
-  animation: L1anime 3.5s 1;
+  animation: L1anime 2.5s 1;
 }
 
 @keyframes L1anime {
   from {
-    margin-top: 17rem;
+    margin-top: 10rem;
     opacity: 0;
   }
 
@@ -311,12 +311,12 @@ nav a:hover {
 }
 
 .L4-anime {
-  animation: L4anime 2.5s 1;
+  animation: L4anime 2s 1;
 }
 
 @keyframes L4anime {
   from {
-    margin-top: 32rem;
+    margin-top: 31rem;
     opacity: 0.1;
   }
 
