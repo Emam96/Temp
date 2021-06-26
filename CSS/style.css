@@ -469,10 +469,9 @@ footer a:hover {
 
 
 nav {
-  display: flex;
-  justify-items: self-start;
+
   position: absolute;
-  top: 0rem;
+  top: -1rem;
   right: 0rem;
   left: 0rem;
 }
