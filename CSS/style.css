@@ -38,7 +38,7 @@ header {
 
 header h1 {
   font-family: "Staatliches", cursive;
-  font-size: 10pc;
+  font-size: 20pc;
   color: white;
   position: relative;
   top: 3rem;
@@ -47,6 +47,7 @@ header h1 {
   letter-spacing: 3rem;
   animation-duration: 1.5s;
   animation-name: fadeInh1;
+  opacity: 0.7;
 }
 
 header h2 {
@@ -60,6 +61,7 @@ header h2 {
   letter-spacing: 0.5rem;
   animation-duration: 1.5s;
   animation-name: fadeInh2;
+  opacity: 0.7;
 }
 
 @keyframes fadeInh1 {
