@@ -125,16 +125,19 @@ nav a:hover {
 
 .L1 {
   /* border: solid tomato; */
-  margin-top: 20rem;
+  margin-top: 15rem;
   text-align: center;
   height: 800px;
   width: 100%;
-  padding: 15rem;
+  /* padding: 15rem; */
+  position: relative;
 }
 
 .L1cover {
   /* border: solid red; */
-  float: right;
+  /* float: right; */
+  position: absolute;
+  right: 10rem;
   height: 650px;
   width: 650px;
   background-image: url(http://cdn.shopify.com/s/files/1/0252/6822/4088/t/54/assets/logo_facebook.png?v=14636856715189202634);
@@ -161,12 +164,11 @@ nav a:hover {
 .L1 h3 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 4pc;
-  float: left;
   display: inline-block;
   /* border: solid tomato; */
-  float: left;
-  width: 35rem;
-  
+  width: 50rem;
+  position: absolute;
+  left: 7rem;
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -176,7 +178,7 @@ nav a:hover {
 
 .L2 {
   /* border: solid tomato; */
-  margin-top: 20rem;
+  margin-top: 15rem;
   text-align: center;
   height: 800px;
   width: 100%;
@@ -224,7 +226,7 @@ nav a:hover {
 
 .L3 {
   position: relative;
-  margin-top: 30rem;
+  margin-top: 15rem;
   margin-left: auto;
   margin-right: auto;
   background-image: url(https://kurzgesagt.org/wp-content/uploads/2018/07/inanutshell-kurzgesagt-the-great-filter-06.png);
@@ -290,7 +292,7 @@ nav a:hover {
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .L4 {
-  margin-top: 30rem;
+  margin-top: 15rem;
   margin-left: auto;
   margin-right: auto;
   background-image: url(https://pbs.twimg.com/media/EI3MXKLXUAERyFG.jpg:large);
@@ -310,12 +312,12 @@ nav a:hover {
 
 @keyframes L4anime {
   from {
-    margin-top: 31rem;
+    margin-top: 16rem;
     opacity: 0.1;
   }
 
   to {
-    margin-top: 30rem;
+    margin-top: 15rem;
     opacity: 1;
   }
 }
@@ -352,7 +354,7 @@ nav a:hover {
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 footer {
-  margin-top: 30rem;
+  margin-top: 15rem;
   background-image: url(https://wallpaperaccess.com/full/1886939.png);
   background-size: cover;
   overflow: hidden;
