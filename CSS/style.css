@@ -74,7 +74,6 @@ header h2 {
   }
 }
 
-
 @keyframes fadeInh2 {
   from {
     top: 0rem;
@@ -84,8 +83,6 @@ header h2 {
     top: 3rem;
   }
 }
-
-
 
 @keyframes fadeInB {
   from {
@@ -153,12 +150,10 @@ nav a:hover {
 
 @keyframes L1anime {
   from {
-    
     opacity: 0;
   }
 
   to {
-   
     opacity: 1;
   }
 }
@@ -408,293 +403,247 @@ footer a:hover {
   color: #882695;
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 800px) {
-
   * {
-      box-sizing: border-box;
-    }
-    
-    html,
-    body {
-      width: 100%;
-      height: 100%;
-      margin: 0px;
-      padding: 0px;
-      overflow-x: hidden;
-      position: relative;
-    }
+    box-sizing: border-box;
+  }
 
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    position: relative;
+  }
 
+  header {
+    position: relative;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+  }
 
-    header {
-      position: relative;
-      text-align: center;
-      height: 200px;
-      width: 100%;
-      
-    }
-
-    header h1 {
-      font-size: 2pc;
-      position: absolute;
-      top: 3rem;
-      left: 2rem;
-      right: 0rem;
-      animation-duration: 1s;
-      letter-spacing: 1rem;
-    }
-
-    header h2 {
-      
-      font-size: 1pc;
-      position: absolute;
-      top: 5rem;
-      left: 1rem;
-      right: 0rem;
-      letter-spacing: 0.5rem;
-      animation-duration: 1s;
-    }
-
-    @keyframes fadeInh2 {
-      from {
-        top: 0rem;
-      }
-    
-      to {
-        top: 5rem;
-      }
-    }
-
-
-nav {
-
-  position: absolute;
-  top: -1rem;
-  right: 0rem;
-  left: 0rem;
-}
-
-
-    nav a {
-      
-      padding: 1rem;
-       font-size: 0.8pc;
-     
-    }
-
-
-    .L1 {
-      /* border: solid tomato; */
-      margin-top: 10rem;
-      text-align: center;
-      height: 500px;
-      width: 100%;
-      padding: 1rem;
-      position: relative;
-    }
-
-    .L1cover {
-     position: absolute;
-      height: 350px;
-      width: 350px;
-      right: 1rem;
-      left: 1rem;
-      top: 10rem;
-    }
-
-    .L1 h3 {
-      position: absolute;
-      font-size: 1.5pc;
-      display: inline-block;
-      left: 1rem;
-      right: 1rem;
-      width: 20rem;
-      
-    }
-
-
-
-    .L2 {
-      /* border: solid tomato; */
-      margin-top: 10rem;
-      text-align: center;
-      height: 500px;
-      width: 100%;
-      padding: 1rem;
-      position: relative;
-    }
-
-    .L2cover {
-     position: absolute;
-      height: 200px;
-      width: 300px;
-      right: 4rem;
-      top: 10rem;
-    }
-
-    .L2 h3 {
-      position: absolute;
-      font-size: 1.5pc;
-      display: inline-block;
-      left: 1rem;
-      right: 1rem;
-      width: 20rem;
-      
-    }
-
-
-
-
-    .L3 {
-      margin-top: 3rem;
-      position: relative;
-      text-align: center;
-      height: 200px;
-      width: 90%;
-      overflow: auto;
-      animation-duration: 1s;
-    }
-
-
-    @keyframes L3anime {
-      from {
-        margin-left: 70rem;
-        opacity: 0.1;
-      }
-    
-      to {
-        margin-left: 1.3rem;
-    
-        opacity: 1;
-      }
-    }
-
-
-
-    .L3 #one {
-      position: absolute;
-      font-size: 0.6pc;
-      /* border: solid tomato; */
-      top: 1rem;
-      left: 1rem;
-      width: 15rem;
-      word-spacing: 0.5rem;
-      
-    }
-
-
-
-    .L3 #two {
-      position: absolute;
-      font-size: 0.6pc;
-      /* border: solid tomato; */
-      top: 20rem;
-      right: 1rem;
-      width: 13rem;
-      word-spacing: 0.5rem;
-      
-    }
-
-
-
-
-    .L4 {
-      margin-top: 8rem;
-      position: relative;
-      text-align: center;
-      height: 1000px;
-      width: 90%;
-      overflow: auto;
-      animation-duration: 1s;
-    }
-
-
-
-    .L4 #three {
-      position: absolute;
-      font-size: 1pc;
-      /* border: solid tomato; */
-      top: 1rem;
-      left: 1rem;
-      width: 15rem;
-      word-spacing: 0.5rem;
-      
-    }
-
-
-    @keyframes L4anime {
-      from {
-        
-      }
-    
-      to {
-      
-        
-      }
-    }
-
-
-.fotah {
-  position: absolute;
-  padding: 0rem auto; 
-  height: 30%;
-      width: 100%;
-      /* border: tomato solid; */
-}
-
-    footer {
-      position: relative;
-      text-align: center;
-      height: 200px;
-      width: 100%;
-      margin-top: 3rem;
-      padding: 0rem;
-      /* border: solid tomato; */
-    }
-
-
-    .L5 {
-      position: absolute;
-      /* border: tomato solid; */
-      top: 2rem;
-      right: 2rem;
-      left: 2rem;
-
-      font-size: 1.5pc;
-    }
-    
-    
-    .L5-anime {
-      animation: L5anime 5s 1;
-    }
-    
-    footer .social {
+  header h1 {
+    font-size: 2pc;
     position: absolute;
-      top: 5rem;
-      right: 2rem;
-      left: 2rem;
-      font-size: 1pc;
-      
+    top: 3rem;
+    left: 2rem;
+    right: 0rem;
+    animation-duration: 1s;
+    letter-spacing: 1rem;
+  }
+
+  header h2 {
+    font-size: 1pc;
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+    right: 0rem;
+    letter-spacing: 0.5rem;
+    animation-duration: 1s;
+  }
+
+  @keyframes fadeInh2 {
+    from {
+      top: 0rem;
     }
 
-    footer a {
-      font-size: 1rem;
+    to {
+      top: 5rem;
     }
-    
-    footer p {
-      font-size:1pc;
-      position: absolute;
-      padding: 0rem;
-      right: 2rem;
-      left: 2rem;
-      bottom: 5rem;
+  }
+
+  nav {
+    position: absolute;
+    top: -1rem;
+    right: 0rem;
+    left: 0rem;
+    width: 100%;
+  }
+
+  nav a {
+    padding: 1rem;
+    font-size: 0.8pc;
+  }
+
+  .L1 {
+    /* border: solid tomato; */
+    margin-top: 10rem;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .L1cover {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    right: 1rem;
+    left: 1rem;
+    top: 10rem;
+  }
+
+  .L1 h3 {
+    position: absolute;
+    font-size: 1.5pc;
+    display: inline-block;
+    left: 1rem;
+    right: 1rem;
+    width: 20rem;
+  }
+
+  .L2 {
+    /* border: solid tomato; */
+    margin-top: 10rem;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .L2cover {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    right: 4rem;
+    top: 10rem;
+  }
+
+  .L2 h3 {
+    position: absolute;
+    font-size: 1.5pc;
+    display: inline-block;
+    left: 1rem;
+    right: 1rem;
+    width: 20rem;
+  }
+
+  .L3 {
+    margin-top: 3rem;
+    position: relative;
+    text-align: center;
+    height: 200px;
+    width: 90%;
+    overflow: auto;
+    animation-duration: 1s;
+  }
+
+  @keyframes L3anime {
+    from {
+      margin-left: 70rem;
+      opacity: 0.1;
     }
-    
-    
+
+    to {
+      margin-left: 1.3rem;
+
+      opacity: 1;
+    }
+  }
+
+  .L3 #one {
+    position: absolute;
+    font-size: 0.6pc;
+    /* border: solid tomato; */
+    top: 1rem;
+    left: 1rem;
+    width: 15rem;
+    word-spacing: 0.5rem;
+  }
+
+  .L3 #two {
+    position: absolute;
+    font-size: 0.6pc;
+    /* border: solid tomato; */
+    top: 20rem;
+    right: 1rem;
+    width: 13rem;
+    word-spacing: 0.5rem;
+  }
+
+  .L4 {
+    margin-top: 8rem;
+    position: relative;
+    text-align: center;
+    height: 1000px;
+    width: 90%;
+    overflow: auto;
+    animation-duration: 1s;
+  }
+
+  .L4 #three {
+    position: absolute;
+    font-size: 1pc;
+    /* border: solid tomato; */
+    top: 1rem;
+    left: 1rem;
+    width: 15rem;
+    word-spacing: 0.5rem;
+  }
+
+  @keyframes L4anime {
+    from {
+    }
+
+    to {
+    }
+  }
+
+  .fotah {
+    position: absolute;
+    padding: 0rem auto;
+    height: 30%;
+    width: 100%;
+    /* border: tomato solid; */
+  }
+
+  footer {
+    position: relative;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    margin-top: 3rem;
+    padding: 0rem;
+    /* border: solid tomato; */
+  }
+
+  .L5 {
+    position: absolute;
+    /* border: tomato solid; */
+    top: 2rem;
+    right: 2rem;
+    left: 2rem;
+
+    font-size: 1.5pc;
+  }
+
+  .L5-anime {
+    animation: L5anime 5s 1;
+  }
+
+  footer .social {
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    left: 2rem;
+    font-size: 1pc;
+  }
+
+  footer a {
+    font-size: 1rem;
+  }
+
+  footer p {
+    font-size:1pc;
+    position: absolute;
+    padding: 0rem;
+    right: 2rem;
+    left: 2rem;
+    bottom: 5rem;
+  }
 }
