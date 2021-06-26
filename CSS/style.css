@@ -423,6 +423,7 @@ footer a:hover {
       margin: 0px;
       padding: 0px;
       overflow-x: hidden;
+      position: relative;
     }
 
 
@@ -430,7 +431,7 @@ footer a:hover {
     header {
       position: relative;
       text-align: center;
-      height: 200px;
+      height: 350px;
       width: 100%;
       
     }
@@ -439,8 +440,8 @@ footer a:hover {
       font-size: 2pc;
       position: absolute;
       top: 3rem;
-      left: 1rem;
-      right: 1rem;
+      left: 2rem;
+      right: 0rem;
       animation-duration: 1s;
       letter-spacing: 1rem;
     }
@@ -451,7 +452,7 @@ footer a:hover {
       position: absolute;
       top: 5rem;
       left: 1rem;
-      right: 1rem;
+      right: 0rem;
       letter-spacing: 0.5rem;
       animation-duration: 1s;
     }
@@ -467,12 +468,21 @@ footer a:hover {
     }
 
 
+nav {
+  display: flex;
+  justify-items: self-start;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  left: 0rem;
+}
+
+
     nav a {
-      margin-top: 0.5rem;
+      
       padding: 1rem;
-      display: inline-block;
-      font-size: 0.5pc;
-      margin-left: 3rem;
+       font-size: 0.9pc;
+     
     }
 
 
@@ -627,7 +637,13 @@ footer a:hover {
     }
 
 
-
+.fotah {
+  position: absolute;
+  padding: 0rem auto; 
+  height: 30%;
+      width: 100%;
+      /* border: tomato solid; */
+}
 
     footer {
       position: relative;
@@ -636,6 +652,7 @@ footer a:hover {
       width: 100%;
       margin-top: 3rem;
       padding: 0rem;
+      /* border: solid tomato; */
     }
 
 

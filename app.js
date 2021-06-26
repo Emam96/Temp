@@ -142,4 +142,4 @@ const observer5 = new IntersectionObserver((entries) => {
   });
 });
 
-observer5.observe(document.querySelector(".L5wrap"));
+observer5.observe(document.querySelector(".fotah"));
